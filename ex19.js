@@ -1,0 +1,15 @@
+console.log("raiz: " + Math.sqrt(64));
+console.log("raiz com exp e log e realint: " + Math.round(Math.exp(0.5 * Math.log(64))));
+console.log("raiz com exp e log sem realint: " + Math.exp(0.5 * Math.log(64)));
+console.log((Math.sin(45 * Math.PI / 180)).toFixed(3));
+console.log("potencia com exp e log e formatar: " + (Math.exp(3 * Math.log(8))).toFixed(3));
+console.log("potencia com exp e log sem formatar: " + Math.exp(3 * Math.log(8)));
+console.log("potencia com operador * e formatar: " + (8 * 3).toFixed(3));
+console.log("raiz cubica: " + Math.cbrt(8));
+console.log("absoluto: " + Math.abs(-8));
+console.log("absoluto: " + Math.abs(8));
+console.log("convertendo para inteiro 5.5: " + Math.round(5.5));
+console.log("convertendo para inteiro 6.5: " + Math.round(6.5));
+console.log("convertendo para inteiro 5.45: " + Math.round(5.45));
+console.log("convertendo para inteiro 5.51: " + Math.round(5.51));
+console.log("convertendo para real 87: " + (87).toFixed(1));
